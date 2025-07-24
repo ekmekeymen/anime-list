@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anime Seç!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="text">
+            <h3>👇İzlemek İstediğin Animeyi Seç👇</h3>
+
+            <div class="animes"></div>
+            <button id="naruto" onclick="tiklaBtn()">Naruto</button>
+            <p></p>
+            <button id="bleach" onclick="tiklaBtn()">Bleach</button>
+            <p></p>
+            <button id="ds" onclick="tiklaBtn()">Demon Slayer</button>
+            <p></p>
+            <button id="jjks" onclick="tiklaBtn()">jujutsu Kaisen</button>
+            <p></p>
+            <button id="sl" onclick="tiklaBtn()">Solo Leveling</button>
+            <p></p>
+            <button id="86" onclick="tiklaBtn()">(86) Eighty Six</button>
+            <p></p>
+        </div>
+        <script>
+            const nrt = document.getElementById("naruto");
+            const blc = document.getElementById("bleach");
+            const ds = document.getElementById("ds");
+            const jjk = document.getElementById("jjks");
+            const sl = document.getElementById("sl");
+            const eght = document.getElementById("86");
+
+                nrt.addEventListener("click", function(){
+                    window.location.href = "https://animecix.tv/titles/7490/naruto-shippuuden";
+
+                })
+                    blc.addEventListener("click", function(){
+                        window.location.href = "https://animecix.tv/titles/82/bleach";
+                    })
+
+                        ds.addEventListener("click", function(){
+                            window.location.href = "https://animecix.tv/titles/7394/kimetsu-no-yaiba";
+                        })
+
+                            jjk.addEventListener("click", function(){
+                                window.location.href = "https://animecix.tv/titles/7352/jujutsu-kaisen";
+                            })
+
+                        sl.addEventListener("click", function(){
+                            window.location.href = "https://animecix.tv/titles/10995/ore-dake-level-up-na-ken";
+                        })
+                    eght.addEventListener("click", function(){
+                        window.location.href = "https://animecix.tv/titles/8609/86";
+                    })
+        </script>
+    </body>
+</html>

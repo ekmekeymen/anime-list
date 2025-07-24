@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(26, 25, 25);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text{
+    color: antiquewhite;
+    background-color: rgb(12, 12, 12);
+    padding: 30px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgb(80, 76, 76);
+}
+
+button{
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 12px;
+    width: 120px;
+    cursor: pointer;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+     transition: left 0.3s ease, top 0.3 ease;
+}
+
+button:hover{
+    background-color: rgb(212, 233, 252);
+}
+
+button:active{
+    transform: scale(1.1);
+    filter: blur(0.5px) brightness(1.1);
+}
